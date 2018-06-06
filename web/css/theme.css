@@ -1,0 +1,180 @@
+div#background{
+    background: url("../images/background.jpg");
+    border: 50px solid transparent;
+    border-image: url("../images/wall1.jpg");
+    border-image-repeat: round;
+    border-image-slice: 60;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    
+}
+
+.text {
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 1.5px; 
+    margin: 5%;
+    text-align: center;
+}
+
+.red {
+    color: rgb(159, 0, 0);
+}
+
+.green {
+    color: rgb(11, 133, 0);
+}
+
+.blue {
+    color: rgb(63, 142, 180);
+}
+
+.button {
+        width: 150px;
+        height: 83px;
+        margin-left: 44%;
+        margin-top: 10%;
+        background: url("../images/button.jpg") no-repeat; 
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}
+
+
+.button:active {
+    color: rgb(212, 175, 55);
+}
+
+#lowHrLine {
+    margin-top: 50px;
+}
+
+.grid {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid white;
+    box-shadow: 10px 15px 5px rgb(0, 0, 0, 0.3);
+}
+
+.grid h1 {
+    font-size: 50px;
+    padding: 2px 0px;
+    border-radius: 50px;
+}
+
+.quizButtons {
+    margin-top: 30px;
+
+}
+
+#btn0, #btn1, #btn2, #btn3, #btn4, #btn5 {
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+
+}
+
+#btn0:active, #btn1:active, #btn2:active, #btn3:active, #btn4:active, #btn5:active {
+    background-color: rgb(212, 175, 55);
+}
+
+
+#progress {
+    color:  white;
+    font-size: 18px;
+}
+
+
+#quiz {
+    color: white;
+    text-align: center;
+}
+
+/*
+
+Scarlet: FF2400
+Imperial Red: #ed2939
+Indian Red: #cd5c5c
+Spanish Red: #e60026
+Carmine: #960018
+Crimson: #DC143C
+
+*/
+
+
+#scar {
+    color: #FF2400;
+}
+
+
+#imp {
+    color: #ed2939;
+}
+
+
+#ind {
+    color: #cd5c5c;
+}
+
+
+
+
+#span {
+    color: #e60026;
+}
+
+
+
+#carm {
+    color: #960018;
+}
+
+
+#crim {
+    color: #DC143C;
+}
+
+
+#btn0 {
+    background-color: #FF2400;
+    font-size: 20px;
+    color: white;
+}
+
+#btn1 {
+    background-color: #ed2939;
+    font-size: 20px;
+    color: white;
+}
+
+
+#btn2 {
+    background-color: #cd5c5c;
+    font-size: 20px;
+    color: white;
+}
+
+#btn3 {
+    background-color: #e60026;
+}
+
+#btn4 {
+    background-color: #960018;
+}
+
+#btn5 {
+    background-color: #DC143C;
+}
